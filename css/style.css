@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    text-decoration: none;
 }
 
 
@@ -52,8 +53,6 @@ h1:hover{
     animation: girillo 3s ;
 }
 
-
-
 nav li{
     display: inline-block;
     margin:  15px 40px 0px 40px;
@@ -67,13 +66,13 @@ nav li:hover{
 }
 
 .p2 li{
-    list-style: none;
+    display: inline-block;
     height: 300px;
     width: 270px;
     border-radius: 20px;
     background: rgb(76,59,181);
-background: linear-gradient(0deg, rgb(74, 61, 163) 0%, rgb(183, 169, 231) 64%);
-display: inline-block;
+    background: linear-gradient(0deg, rgb(74, 61, 163) 0%, rgb(183, 169, 231) 64%);
+    
     margin: 20px;
     text-align: center;
     line-height: 3;
@@ -96,7 +95,7 @@ display: inline-block;
     animation: plun 10s;
 }
 .p2 ul{
-    
+    list-style: none;
     width: 1360px;
     margin: 0 auto;
     padding-top: 50px;
@@ -122,8 +121,10 @@ background: linear-gradient(0deg, rgba(170,151,228,1) 0%, rgba(242,232,255,1) 49
 }
 
 svg{
-   
+   float: left;
     fill: rgb(72, 52, 196);
+    margin-top: 20px;
+    padding-left: 20px;
 }
 svg:hover{
    
