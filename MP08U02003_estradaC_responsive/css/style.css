@@ -1,0 +1,95 @@
+:root{
+    --color0: #8BBEB2;
+    --color1: #18314F;
+    --color2: #384E77;
+    --color3: #E6F9AF;
+    --colorB: rgb(174, 167, 239);
+}
+
+@font-face {
+    font-family: 'VIRUST';
+    src: url('../fonts/VIRUST/VIRUSTRegular.eot');
+    src: url('../fonts/VIRUST/VIRUSTRegular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/VIRUST/VIRUSTRegular.woff2') format('woff2'),
+        url('../fonts/VIRUST/VIRUSTRegular.woff') format('woff'),
+        url('../fonts/VIRUST/VIRUSTRegular.ttf') format('truetype'),
+        url('../fonts/VIRUST/VIRUSTRegular.svg#VIRUSTRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+h1{
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'VIRUST';
+    font-weight: normal;
+    font-style: normal;}
+p{
+padding: 1rem;
+background: var(--color0);
+overflow: hidden;
+
+}
+.progres{
+    height: 10px;
+    width: 100vw;
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    background-color: var(--colorB);
+    scale: 0 1;
+    animation: analitzador linear;
+    
+        -o-animation-timeline: scroll() ;
+       -moz-animation-timeline: scroll();
+    -webkit-animation-timeline: scroll();
+           animation-timeline: scroll(y);
+    transform-origin: left;
+
+}
+
+@keyframes analitzador{
+    to{
+        scale: 1 1;
+
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* aqui va el disseny per smarphone*/
+    body{
+        background: var(--color1);
+    }
+    h1{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width:1279px){
+    /* aqui va el disseny per tablet*/
+    body{
+        background:var(--color2);
+        
+    }
+    h1{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 1280px){
+    body{
+        background: var(--color3);
+        
+    }
+    h1{
+        font-size: 4rem;
+    }
+    p{
+        columns: 2;
+    }
+    /* aqui va el disseny per ordinador*/
+}
+
