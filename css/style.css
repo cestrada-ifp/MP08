@@ -217,9 +217,9 @@ text-align: center;
 @media screen and (max-width: 480px) {
     html, body {
         height: 100%;
+        width: 100%;
         font-family: "Nunito", sans-serif;
         font-optical-sizing: auto;
-    
     }
     .nav{
         position: fixed;
@@ -232,26 +232,25 @@ text-align: center;
     }
     
     h1{
-        font-size: 70px;
+        font-size: 65px;
     }
     h2{ 
-        padding-top: 50px;
-        font-size:20px;
+        padding-top: 45px;
+        font-size:15px;
     }
     h3{
         padding-top: 550px;
-        font-size: 20px;
+        font-size: 15px;
     }
 
 
     .p2 li{
-        display: inline block;
-        height: 105px;
+        height: 100px;
         width: 150px;
         border-radius: 20px;
-        margin: 20px;
+        margin: 10px;
         text-align: center;
-        font-size: 15px;
+        font-size: 10px;
     }
     .p2 img {
         width: 23px;
@@ -262,9 +261,10 @@ text-align: center;
         right: -13px;
     }
     .p2 ul{
-        width: 480px;
+        width: 100%;
         padding-top:  0px;
-        margin: 10px auto;
+        margin: 0px auto;
+        
     }
     .scara img{
         width: 60px;
@@ -294,6 +294,7 @@ text-align: center;
     }
     .p3 ul{
         padding-top: 40px;
+        width: 100%;
     }
     svg{
        float: left;
