@@ -72,7 +72,6 @@ nav li:hover{
     border-radius: 20px;
     background: rgb(76,59,181);
     background: linear-gradient(0deg, rgb(74, 61, 163) 0%, rgb(183, 169, 231) 64%);
-    
     margin: 20px;
     text-align: center;
     line-height: 3;
@@ -104,12 +103,12 @@ nav li:hover{
 
 
 
-.p3 li{
+.p3 li{  
     height: 150px;
     width: 350px;
     border-radius: 20px;
     background: rgb(170,151,228);
-background: linear-gradient(0deg, rgba(170,151,228,1) 0%, rgba(242,232,255,1) 49%);
+    background: linear-gradient(0deg, rgba(170,151,228,1) 0%, rgba(242,232,255,1) 49%);
     margin: 50px;
     list-style: none;
     line-height: 3.5;
@@ -117,8 +116,9 @@ background: linear-gradient(0deg, rgba(170,151,228,1) 0%, rgba(242,232,255,1) 49
     color:  rgb(66, 49, 124,0.75);
     box-shadow: 5px 5px 5px rgb(69, 67, 127);
     text-align: center;
-    
+    margin: 30px auto;
 }
+
 
 svg{
    float: left;
@@ -127,15 +127,9 @@ svg{
     padding-left: 20px;
 }
 svg:hover{
-   
     fill: rgb(158, 148, 224);
 }
-.p3 ul{
-    width: 1360px;
-    margin: 0 auto;
-    padding-top: 50px;
-    padding-left: 150px;
-}
+
 .p3 li:hover{
     opacity: 75%;
     animation: meneo 0.15s ease-in infinite;
