@@ -10,6 +10,7 @@ html, body {
     height: 100%;
     font-family: "Nunito", sans-serif;
     font-optical-sizing: auto;
+    overflow: hidden;
 
 }
 
@@ -228,7 +229,8 @@ text-align: center;
     } 
     nav li{
         margin:  9px 15px 0px 15px;
-        line-height: 2;
+        line-height: 3;
+        font-size: 15px;
     }
     
     h1{
@@ -304,7 +306,6 @@ text-align: center;
     }
 
     .p1{
-        
         background-image: url(../img/est2.png);
         background-size: 100px;
         background-position: 10px;
