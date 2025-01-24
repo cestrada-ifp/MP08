@@ -298,13 +298,7 @@ text-align: center;
     }
 
     .p1{
-        /*background-image: 
-        radial-gradient(rgb(255, 234, 158,0.25) 10%, transparent 10%),
-        radial-gradient(rgb(255, 234, 158,0.75) 10%, transparent 10%);
-      background-position: 0px 0px, 55px 60px;
-      background-size: 100px 100px;
-      background-color: rgb(35, 22, 80);
-        */
+        width: 480px;
         background-image: url(../img/est2.png);
         background-size: 100px;
         background-position: 10px;
@@ -312,11 +306,13 @@ text-align: center;
     }
     .p2{
         height: 800px;
+        width: 480px;
         background: rgb(220,193,255);
         background: linear-gradient(0deg, rgb(224, 207, 255) 37%, rgba(191,166,228,1) 59%, rgba(161,138,199,1) 68%, rgba(92,74,134,1) 87%, rgba(35,22,80,1) 100%, rgba(35,22,80,1) 100%);
     }
     .p3{
         height: 650px;
+        width: 480px;
         background-image: url(../img/est3.png);
         background-size: 90px;
         background-position: 30px;
