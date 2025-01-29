@@ -146,7 +146,7 @@ svg:hover{
     position: relative;
     top: -5px;
     left: 50px;
-    opacity: 70%;
+    opacity: 90%;
 }
 .pagina{
     position: relative;
@@ -268,16 +268,16 @@ text-align: center;
     .p2 ul{
         width: 100%;
         padding-top:  0px;
-        margin: 0px auto;
-        
+        margin: 0px auto;   
     }
+   
     .scara img{
         width: 60px;
         height: 60px;
         position: relative;
         top: -10px;
         left: 50px;
-        opacity: 70%;
+        opacity: 100%;
     }
     
 
@@ -330,3 +330,142 @@ text-align: center;
     }
 
 }
+
+
+body {
+    background: #000000;
+   }
+   /* Effect CSS */
+   svg#one {
+       position: absolute;
+       -webkit-transform: translate(50%, 141%);
+       transform: translate(50%, 141%);
+   }
+   svg#two {
+       position: absolute;
+       -webkit-transform: translate(570%, 1210%);
+       transform: translate(570%, 1210%);
+   }
+   svg#three {
+       position: absolute;
+       -webkit-transform: translate(600%, 250%);
+       transform: translate(600%, 250%);
+   }
+   .sparkleElements {
+       -webkit-transform: translate(42.5px,42.5px);
+       -moz-transform: translate(42.5px,42.5px);
+       transform: translate(42.5px, 42.5px);
+   }
+   path {
+       -webkit-transform: translate(-42.50px,-42.50px);
+       -moz-transform: translate(-42.50px,-42.50px);
+       transform: translate(-42.50px,-42.50px);
+   }
+   path#large {
+   /* Large Sparkle */
+    fill: rgb(158, 148, 224);
+   }
+   path#medium {
+   /* Medium Sparkle */
+    fill: rgb(158, 148, 224);
+   }
+   path#small {
+   /* Small Sparkle */
+    fill: rgb(158, 148, 224);
+   }
+   .large {
+       -webkit-animation: large 2.5s infinite;
+       -moz-animation: large 2.5s infinite;
+   }
+   .medium {
+       -webkit-animation: medium 2.5s infinite;
+       -moz-animation: medium 2.5s infinite;
+   }
+   .small {
+       -webkit-animation: small 2.5s infinite;
+       -moz-animation: small 2.5s infinite;
+   }
+   @-webkit-keyframes large {
+       0% {
+           opacity: 0;
+           -webkit-transform: rotate(0deg) scale(0);
+           transform: rotate(0deg) scale(0);
+       }
+       50% {
+           opacity: 1;
+       }
+       100% {
+           opacity: 0;
+           -webkit-transform: rotate(360deg) scale(1.5);
+           transform: rotate(360deg) scale(1.5);
+       }
+   }
+   @-moz-keyframes large {
+       0% {
+           opacity: 0;
+           transform: rotate(0deg) scale(0);
+       }
+       50% {
+           opacity: 1;
+       }
+       100% {
+           opacity: 0;
+           transform: rotate(360deg) scale(1.5);
+       }
+   }
+   @-webkit-keyframes medium {
+       0% {
+           opacity: 0;
+           -webkit-transform: rotate(45deg) scale(0);
+           transform: rotate(45deg) scale(0);
+       }
+       50% {
+           opacity: 1;
+       }
+       100% {
+           opacity: 0;
+           -webkit-transform: rotate(405deg) scale(1.1);
+           transform: rotate(405deg) scale(1.1);
+       }
+   }
+   @-moz-keyframes medium {
+       0% {
+           opacity: 0;
+           transform: rotate(45deg) scale(0);
+       }
+       50% {
+           opacity: 1;
+       }
+       100% {
+           opacity: 0;
+           transform: rotate(405deg) scale(1.1);
+       }
+   }
+   @-webkit-keyframes small {
+       0% {
+           opacity: 0;
+           -webkit-transform: rotate(0deg) scale(0);
+           transform: rotate(0deg) scale(0);
+       }
+       50% {
+           opacity: 1;
+       }
+       100% {
+           opacity: 0;
+           -webkit-transform: rotate(-360deg) scale(1);
+           transform: rotate(-360deg) scale(1.5);
+       }
+   }
+   @-moz-keyframes small {
+       0% {
+           opacity: 0;
+           transform: rotate(0deg) scale(0);
+       }
+       50% {
+           opacity: 1;
+       }
+       100% {
+           opacity: 0;
+           transform: rotate(-360deg) scale(1.5);
+       }
+   }
