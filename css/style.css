@@ -35,13 +35,13 @@ h2{
     text-align: center;
     color: rgb(255, 255, 255);
     padding-top: 150px;
-    font-size: 50px;
+    font-size:3.125rem;
 }
 h3{
     text-align: center;
     color: rgb(255, 255, 255);
     padding-top: 650px;
-    font-size: 50px;
+    font-size: 3.125rem;
 }
 h1:hover{
     animation: girillo 2s ;
@@ -50,7 +50,7 @@ nav li{
     display: inline-block;
     margin: 15px 40px 0px 40px;
     color: rgb(255, 255, 255);
-    font-size: 3.125rem;
+    font-size: 1.563rem;
 }
 nav li:hover{
     opacity: 75%;
@@ -133,11 +133,6 @@ svg:hover{
     text-align: center;
 }
 .p1{
-   /*background-image: radial-gradient(rgb(255, 234, 158,0.25) 10%, transparent 10%), radial-gradient(rgb(255, 234, 158,0.75) 10%, transparent 10%);
-    background-position: 0px 0px, 55px 60px;
-    background-size: 100px 100px;
-    background-color: rgb(35, 22, 80);
-    */
     background-image: url(../img/est2.png);
     background-size: 200px;
     background-position: 10px;

@@ -334,3 +334,10 @@ body{
          pacity: 0%;
     }
 }
+
+@media screen and (max-width: 480px) {
+     
+    #cestrada {
+        transform: scale(55%);
+    } 
+}
