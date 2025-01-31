@@ -3,18 +3,13 @@
     margin: 0;
     text-decoration: none;
 }
-
-
-    
 html, body {
     width: 100%;
     height: 100%;
     font-family: "Nunito", sans-serif;
     font-optical-sizing: auto;
     overflow: hidden;
-
 }
-
 nav{
     position: fixed;
     height: 60px;
@@ -24,7 +19,6 @@ nav{
     background: rgba(41, 24, 96, 0.75);
     z-index: 500;
 }
-
 h1{
     text-align: center;
     line-height: 150px;
@@ -37,7 +31,6 @@ h1{
     transform: translate(-50%,-50%);
     font-size: 150px;
 }
-
 h2{
     text-align: center;
     color: rgb(255, 255, 255);
@@ -50,25 +43,20 @@ h3{
     padding-top: 650px;
     font-size: 50px;
 }
-
 h1:hover{
-    animation: girillo 3s ;
+    animation: girillo 2s ;
 }
-
 nav li{
     display: inline-block;
-    margin:  15px 40px 0px 40px;
+    margin: 15px 40px 0px 40px;
     color: rgb(255, 255, 255);
     font-size: 20px;
 }
-
 nav li:hover{
-    opacity: 75%;    
+    opacity: 75%;
     animation: meneo 0.15s ease-in infinite;
 }
-
 .p2 li{
-    
     height: 300px;
     width: 270px;
     border-radius: 20px;
@@ -82,7 +70,6 @@ nav li:hover{
     text-align: center;
     display: inline-block;
 }
-
 .p2 img {
     width: 45px;
     height: 40px;
@@ -91,7 +78,6 @@ nav li:hover{
     bottom:-25px;
     right: -20px;
 }
-
 .p2 li:hover{
     opacity: 65%;
     animation: plun 10s;
@@ -101,12 +87,8 @@ nav li:hover{
     width: 1360px;
     margin: 0 auto;
     padding-top: 50px;
-    
 }
-
-
-
-.p3 li{  
+.p3 li{
     height: 150px;
     width: 350px;
     border-radius: 20px;
@@ -116,18 +98,18 @@ nav li:hover{
     list-style: none;
     line-height: 3.5;
     font-size: 40px;
-    color:  rgb(66, 49, 124,0.75);
+    color: rgb(66, 49, 124,0.75);
     box-shadow: 5px 5px 5px rgb(69, 67, 127);
     text-align: center;
     display: inline-block;
-    /*margin: 30px auto; */
+   /*margin: 30px auto;
+    */
 }
 .p3 ul{
     padding-top: 50px;
 }
-
 svg{
-   float: left;
+    float: left;
     fill: rgb(76,59,181);
     margin-top: 20px;
     padding-left: 20px;
@@ -135,7 +117,6 @@ svg{
 svg:hover{
     fill: rgb(158, 148, 224);
 }
-
 .p3 li:hover{
     opacity: 75%;
     animation: meneo 0.15s ease-in infinite;
@@ -151,15 +132,13 @@ svg:hover{
 .pagina{
     position: relative;
     height: 100%;
-text-align: center;
+    text-align: center;
 }
 .p1{
-    /*background-image: 
-    radial-gradient(rgb(255, 234, 158,0.25) 10%, transparent 10%),
-    radial-gradient(rgb(255, 234, 158,0.75) 10%, transparent 10%);
-  background-position: 0px 0px, 55px 60px;
-  background-size: 100px 100px;
-  background-color: rgb(35, 22, 80);
+   /*background-image: radial-gradient(rgb(255, 234, 158,0.25) 10%, transparent 10%), radial-gradient(rgb(255, 234, 158,0.75) 10%, transparent 10%);
+    background-position: 0px 0px, 55px 60px;
+    background-size: 100px 100px;
+    background-color: rgb(35, 22, 80);
     */
     background-image: url(../img/est2.png);
     background-size: 200px;
@@ -172,83 +151,74 @@ text-align: center;
 }
 .p3{
     background-image: url(../img/est3.png);
-   
     background-size: 160px;
     background-position: 30px;
     background-color: rgb(224, 207, 255);
 }
-
 @keyframes plun {
     0% {
         transform: translateY(5px);
-    }
+   }
     100% {
-        transform:  translateY(0px);
-    }
+        transform: translateY(0px);
+   }
 }
-
-@keyframes girillo { 
+@keyframes girillo {
     0% {
         transform: translate(-50%,-50%) rotateZ(360deg);
-    }
+   }
     100% {
         transform: translate(-50%,-50%) rotateZ(0deg);
-    }
+   }
 }
-@keyframes giro { 
+@keyframes giro {
     0% {
         transform:rotateZ(360deg);
-    }
+   }
     100% {
         transform:rotateZ(0deg);
-    }
+   }
 }
-
 @keyframes meneo {
     0% {
         transform: rotateZ(10deg);
-    }
+   }
     50% {
         transform: rotateZ(-10deg);
-    }
+   }
     100% {
         transform: rotateZ(0deg);
-    }
+   }
 }
-
 @media screen and (max-width: 480px) {
     html, body {
         height: 100%;
         width: 100%;
         font-family: "Nunito", sans-serif;
         font-optical-sizing: auto;
-    }
+   }
     .nav{
         position: fixed;
         height: 15px;
         text-align: center;
-        
-    } 
+   }
     nav li{
-        margin:  9px 10px 0px 10px;
+        margin: 9px 10px 0px 10px;
         line-height: 3;
         font-size: 13px;
         text-align: center;
-    }
-    
+   }
     h1{
         font-size: 65px;
-    }
-    h2{ 
+   }
+    h2{
         padding-top: 45px;
         font-size:15px;
-    }
+   }
     h3{
         padding-top: 550px;
         font-size: 15px;
-    }
-
-
+   }
     .p2 li{
         height: 100px;
         width: 150px;
@@ -256,7 +226,7 @@ text-align: center;
         margin: 10px;
         text-align: center;
         font-size: 10px;
-    }
+   }
     .p2 img {
         width: 23px;
         height: 20px;
@@ -264,13 +234,12 @@ text-align: center;
         float: left;
         bottom:-10px;
         right: -13px;
-    }
+   }
     .p2 ul{
         width: 100%;
-        padding-top:  0px;
-        margin: 0px auto;   
-    }
-   
+        padding-top: 0px;
+        margin: 0px auto;
+   }
     .scara img{
         width: 60px;
         height: 60px;
@@ -278,10 +247,8 @@ text-align: center;
         top: -10px;
         left: 50px;
         opacity: 100%;
-    }
-    
-
-    .p3 li{  
+   }
+    .p3 li{
         height: 90px;
         width: 200px;
         border-radius: 10px;
@@ -291,181 +258,38 @@ text-align: center;
         list-style: none;
         line-height: 4.5;
         font-size: 20px;
-        color:  rgb(66, 49, 124,0.75);
+        color: rgb(66, 49, 124,0.75);
         box-shadow: 5px 5px 5px rgb(69, 67, 127);
         text-align: center;
         display: inline-block;
-        /*margin: 30px auto; */
-    }
+       /*margin: 30px auto;
+        */
+   }
     .p3 ul{
         padding-top: 40px;
         width: 100%;
-    }
+   }
     svg{
-       float: left;
+        float: left;
         height: 50px;
         width: 50px;
-
-    }
-
+   }
     .p1{
         background-image: url(../img/est2.png);
         background-size: 100px;
         background-position: 10px;
         background-color: rgb(35, 22, 80);
-    }
+   }
     .p2{
         height: 800px;
-       
         background: rgb(220,193,255);
         background: linear-gradient(0deg, rgb(224, 207, 255) 37%, rgba(191,166,228,1) 59%, rgba(161,138,199,1) 68%, rgba(92,74,134,1) 87%, rgba(35,22,80,1) 100%, rgba(35,22,80,1) 100%);
-    }
+   }
     .p3{
         height: 650px;
-        
         background-image: url(../img/est3.png);
         background-size: 90px;
         background-position: 30px;
         background-color: rgb(224, 207, 255);
-    }
-
+   }
 }
-
-
-body {
-    background: #000000;
-   }
-   /* Effect CSS */
-   svg#one {
-       position: absolute;
-       -webkit-transform: translate(50%, 141%);
-       transform: translate(50%, 141%);
-   }
-   svg#two {
-       position: absolute;
-       -webkit-transform: translate(570%, 1210%);
-       transform: translate(570%, 1210%);
-   }
-   svg#three {
-       position: absolute;
-       -webkit-transform: translate(600%, 250%);
-       transform: translate(600%, 250%);
-   }
-   .sparkleElements {
-       -webkit-transform: translate(42.5px,42.5px);
-       -moz-transform: translate(42.5px,42.5px);
-       transform: translate(42.5px, 42.5px);
-   }
-   path {
-       -webkit-transform: translate(-42.50px,-42.50px);
-       -moz-transform: translate(-42.50px,-42.50px);
-       transform: translate(-42.50px,-42.50px);
-   }
-   path#large {
-   /* Large Sparkle */
-    fill: rgb(158, 148, 224);
-   }
-   path#medium {
-   /* Medium Sparkle */
-    fill: rgb(158, 148, 224);
-   }
-   path#small {
-   /* Small Sparkle */
-    fill: rgb(158, 148, 224);
-   }
-   .large {
-       -webkit-animation: large 2.5s infinite;
-       -moz-animation: large 2.5s infinite;
-   }
-   .medium {
-       -webkit-animation: medium 2.5s infinite;
-       -moz-animation: medium 2.5s infinite;
-   }
-   .small {
-       -webkit-animation: small 2.5s infinite;
-       -moz-animation: small 2.5s infinite;
-   }
-   @-webkit-keyframes large {
-       0% {
-           opacity: 0;
-           -webkit-transform: rotate(0deg) scale(0);
-           transform: rotate(0deg) scale(0);
-       }
-       50% {
-           opacity: 1;
-       }
-       100% {
-           opacity: 0;
-           -webkit-transform: rotate(360deg) scale(1.5);
-           transform: rotate(360deg) scale(1.5);
-       }
-   }
-   @-moz-keyframes large {
-       0% {
-           opacity: 0;
-           transform: rotate(0deg) scale(0);
-       }
-       50% {
-           opacity: 1;
-       }
-       100% {
-           opacity: 0;
-           transform: rotate(360deg) scale(1.5);
-       }
-   }
-   @-webkit-keyframes medium {
-       0% {
-           opacity: 0;
-           -webkit-transform: rotate(45deg) scale(0);
-           transform: rotate(45deg) scale(0);
-       }
-       50% {
-           opacity: 1;
-       }
-       100% {
-           opacity: 0;
-           -webkit-transform: rotate(405deg) scale(1.1);
-           transform: rotate(405deg) scale(1.1);
-       }
-   }
-   @-moz-keyframes medium {
-       0% {
-           opacity: 0;
-           transform: rotate(45deg) scale(0);
-       }
-       50% {
-           opacity: 1;
-       }
-       100% {
-           opacity: 0;
-           transform: rotate(405deg) scale(1.1);
-       }
-   }
-   @-webkit-keyframes small {
-       0% {
-           opacity: 0;
-           -webkit-transform: rotate(0deg) scale(0);
-           transform: rotate(0deg) scale(0);
-       }
-       50% {
-           opacity: 1;
-       }
-       100% {
-           opacity: 0;
-           -webkit-transform: rotate(-360deg) scale(1);
-           transform: rotate(-360deg) scale(1.5);
-       }
-   }
-   @-moz-keyframes small {
-       0% {
-           opacity: 0;
-           transform: rotate(0deg) scale(0);
-       }
-       50% {
-           opacity: 1;
-       }
-       100% {
-           opacity: 0;
-           transform: rotate(-360deg) scale(1.5);
-       }
-   }
