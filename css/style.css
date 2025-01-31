@@ -29,7 +29,7 @@ h1{
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    font-size: 150px;
+    font-size: 9.375rem;
 }
 h2{
     text-align: center;
@@ -50,7 +50,7 @@ nav li{
     display: inline-block;
     margin: 15px 40px 0px 40px;
     color: rgb(255, 255, 255);
-    font-size: 20px;
+    font-size: 3.125rem;
 }
 nav li:hover{
     opacity: 75%;
@@ -64,7 +64,7 @@ nav li:hover{
     background: linear-gradient(0deg, rgb(74, 61, 163) 0%, rgb(183, 169, 231) 64%);
     margin: 20px;
     line-height: 3;
-    font-size: 30px;
+    font-size: 1.875rem;
     color: rgb(255, 255, 255);
     box-shadow: 5px 5px 5px rgb(69, 67, 127);
     text-align: center;
@@ -102,8 +102,6 @@ nav li:hover{
     box-shadow: 5px 5px 5px rgb(69, 67, 127);
     text-align: center;
     display: inline-block;
-   /*margin: 30px auto;
-    */
 }
 .p3 ul{
     padding-top: 50px;
@@ -205,19 +203,19 @@ svg:hover{
     nav li{
         margin: 9px 10px 0px 10px;
         line-height: 3;
-        font-size: 13px;
+        font-size: 0.813rem;
         text-align: center;
    }
     h1{
-        font-size: 65px;
+        font-size: 4.063rem;
    }
     h2{
         padding-top: 45px;
-        font-size:15px;
+        font-size: 0.938rem;
    }
     h3{
         padding-top: 550px;
-        font-size: 15px;
+        font-size: 0.938rem;
    }
     .p2 li{
         height: 100px;
@@ -225,7 +223,7 @@ svg:hover{
         border-radius: 20px;
         margin: 10px;
         text-align: center;
-        font-size: 10px;
+        font-size: 0.625rem;
    }
     .p2 img {
         width: 23px;
@@ -257,13 +255,12 @@ svg:hover{
         margin: 20px;
         list-style: none;
         line-height: 4.5;
-        font-size: 20px;
+        font-size: 1.25rem;
         color: rgb(66, 49, 124,0.75);
         box-shadow: 5px 5px 5px rgb(69, 67, 127);
         text-align: center;
         display: inline-block;
-       /*margin: 30px auto;
-        */
+    
    }
     .p3 ul{
         padding-top: 40px;
