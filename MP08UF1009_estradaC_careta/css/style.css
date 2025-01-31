@@ -328,16 +328,12 @@ body{
 
 @media screen and (max-width: 480px) {
      
-    #cestrada {
-        transform: scale(35%);
-    } 
     .cap{
         top: -1550px;
         position: relative;
     }
     .adios{
-        color: white;
-        font-size: 30px;
+        font-size: 25px;
         text-align: center;
         top: 400px;
     }
@@ -358,5 +354,8 @@ body{
         right: 100px;
         z-index: -500;
     }
+    #cestrada {
+        transform: scale(30%);
+    } 
     
 }
