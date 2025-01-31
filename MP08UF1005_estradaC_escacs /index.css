@@ -70,4 +70,13 @@ background-image: url(https://i.redd.it/anyone-else-have-a-scarameow-mandela-eff
 background-size: 400px;
 }
         
+@media screen and (max-width: 480px) {
+    body{
+        transform: scale(28%);
+        margin-top:-250px ;
+        margin-right: 500px;
+        background-size: 150px;
+    }
+   
+}
 
