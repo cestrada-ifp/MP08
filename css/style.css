@@ -287,46 +287,4 @@ background: radial-gradient(circle, rgba(146,122,176,1) 0%, rgba(46,21,123,1) 10
         background-color: rgb(224, 207, 255);
    }
 }
-@media (min-width: 480px) and (min-height: 320px) {
-    body {
-      --s: 6px ;
-    }
-  }
-  @supports (line-height: 1cap) {
-    body {
-      line-height: 1cap;
-    }
-  }
 
-  .snow, .snow:before, .snow:after {
-    position: absolute;
-    top: -$w + px;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background-image: $grad;
-    background-size: $w + px $w + px;
-    animation: snow $s linear infinite;
-    content: "";
-  }
-  .snow:after {
-    margin-left: -$w/3 + px;
-    opacity: .4;
-    animation-duration: $s*2;
-    animation-direction: reverse;
-    filter: blur(3px);
-  }
-  .snow:before {
-    animation-duration: $s*3;
-    animation-direction: reverse;
-    margin-left: -$w/2 + px;
-    opacity: .65;
-    filter: blur(1.5px);
-  }
-  @keyframes snow {
-    to {
-      transform: translateY($w + px);
-    }
-  }
-  
-  
