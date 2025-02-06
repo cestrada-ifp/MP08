@@ -53,8 +53,8 @@ nav li{
     font-size: 1.563rem;
 }
 nav li:hover{
-    opacity: 75%;
     animation: meneo 0.15s ease-in infinite;
+    text-shadow: 0 0 15px rgb(224, 207, 255);
 }
 .p2 li{
     height: 300px;
@@ -81,6 +81,7 @@ nav li:hover{
 .p2 li:hover{
     opacity: 65%;
     animation: plun 10s;
+    box-shadow: 0 0 15px rgb(224, 207, 255);
 }
 .p2 ul{
     list-style: none;
@@ -112,12 +113,11 @@ svg{
     margin-top: 20px;
     padding-left: 20px;
 }
-svg:hover{
-    fill: rgb(158, 148, 224);
-}
+
 .p3 li:hover{
     opacity: 75%;
     animation: meneo 0.15s ease-in infinite;
+    box-shadow: 0 0 20px rgb(92, 66, 139);
 }
 .scara img{
     width: 190px;
@@ -133,10 +133,12 @@ svg:hover{
     text-align: center;
 }
 .p1{
-    background-image: url(../img/est2.png);
-    background-size: 200px;
-    background-position: 10px;
-    background-color: rgb(35, 22, 80);
+   /*background-image: url(../img/est2.png);
+    background-size: 150px;
+    background-position: 10px;*/
+
+    background: rgb(146,122,176);
+background: radial-gradient(circle, rgba(146,122,176,1) 0%, rgba(46,21,123,1) 100%);
 }
 .p2{
     background: rgb(220,193,255);
@@ -146,7 +148,7 @@ svg:hover{
     background-image: url(../img/est3.png);
     background-size: 160px;
     background-position: 30px;
-    background-color: rgb(224, 207, 255);
+    background-color: rgb(220,193,255);
 }
 @keyframes plun {
     0% {
@@ -285,3 +287,46 @@ svg:hover{
         background-color: rgb(224, 207, 255);
    }
 }
+@media (min-width: 480px) and (min-height: 320px) {
+    body {
+      --s: 6px ;
+    }
+  }
+  @supports (line-height: 1cap) {
+    body {
+      line-height: 1cap;
+    }
+  }
+
+  .snow, .snow:before, .snow:after {
+    position: absolute;
+    top: -$w + px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-image: $grad;
+    background-size: $w + px $w + px;
+    animation: snow $s linear infinite;
+    content: "";
+  }
+  .snow:after {
+    margin-left: -$w/3 + px;
+    opacity: .4;
+    animation-duration: $s*2;
+    animation-direction: reverse;
+    filter: blur(3px);
+  }
+  .snow:before {
+    animation-duration: $s*3;
+    animation-direction: reverse;
+    margin-left: -$w/2 + px;
+    opacity: .65;
+    filter: blur(1.5px);
+  }
+  @keyframes snow {
+    to {
+      transform: translateY($w + px);
+    }
+  }
+  
+  
