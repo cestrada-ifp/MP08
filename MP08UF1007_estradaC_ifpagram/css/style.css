@@ -9,12 +9,6 @@ header{
 
 nav{
     height: 180px;
-    
-
-}
-
-article {
-
 }
 
 .contenidor{
@@ -26,7 +20,6 @@ article {
 .entrada{
     width: 536px;
     height: 620px;
-    
     margin: 18px;
     float: left;
 }
@@ -57,11 +50,9 @@ img {
     padding: 10px;
     border: solid 5px rgb(255, 255, 255);
     box-shadow: 0px 0px 10px rgb(255, 104, 255);
-
     background-image: url(../img/perfil.jpg);
     background-size:100%; 
     background-repeat: no-repeat;
-   
     opacity: 100%;
 }
 
@@ -130,15 +121,46 @@ img {
 .like {
     height: 40px;
     width: 40px;
-   
     float: left;
 }
 .like {
     height: 35px;
     width: 35px;
-    
     float: left;
 }
+input{
+    visibility: hidden;
+  }
+  
+  #agradador{
+    margin: 2rem 0 0 0;
+    height: 30px;
+    width: 30px;
+    background: #ececec;
+    position: relative;
+    border-radius: 0.5rem;
+    float: left;
+    bottom: 25px;
+  }
+  #agradador label{
+    height: 30px;
+    width: 30px;
+    visibility: visible;
+    display: block;
+   position: absolute;
+    top:0;
+    left: 0; 
+    transition: all .2s ease;
+    cursor:pointer;
+    opacity:0;
+    background-image:url(https://upload.wikimedia.org/wikipedia/commons/8/86/A_perfect_SVG_heart.svg);
+      background-size: 30px 30px;
+      
+  }
+  
+  #agradador input[type=checkbox]:checked+label {
+    opacity: 1;
+  }
 
 .esquerra {
     width: 50%;
