@@ -1,0 +1,64 @@
+@charset "UTF-8";
+/* CSS Document */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+body{
+    background-image: url(/img/fons.jpg);}
+}
+.cap{
+    height: 589px;
+    color: black;
+    font-size: 2rem;
+    text-align: center;
+}
+h1{
+    color: black;
+}
+.cos{
+   max-width: 940px;
+    margin: 0 auto;
+    text-align: center;
+}
+.car{
+    display: inline-block;
+    height: 240px;
+    
+}
+.nom{
+    font-size: 1rem;
+    text-align: center;
+    background-color: white;
+    line-height: 2.5;
+    height: 40px;
+   
+}
+
+.car:hover{
+    opacity: 50%;
+    animation: gir 0.30s;
+}
+
+.peu{
+height: 220px;
+text-align: center;
+}
+
+@keyframes gir {
+    0% {
+        transform:rotateZ(360deg);
+   }
+    100% {
+        transform:rotateZ(0deg);
+   }
+}
+
+@media screen and (max-width: 940px) {
+    html, body {
+        height: 100%;
+        width: 100%;
+        font-family: "Nunito", sans-serif;
+        font-optical-sizing: auto;
+   }
+}
