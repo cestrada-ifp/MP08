@@ -6,11 +6,16 @@
 
 body{
     background-image: url(/img/fons.jpg);}
+    text-align: center;
 }
 .cap{
-    height: 589px;
+    height: 600px;
     color: black;
     font-size: 2rem;
+    text-align: center;
+    
+}
+.gwd-ad{
     text-align: center;
 }
 h1{
@@ -57,8 +62,9 @@ text-align: center;
 @media screen and (max-width: 940px) {
     html, body {
         height: 100%;
-        width: 100%;
         font-family: "Nunito", sans-serif;
         font-optical-sizing: auto;
    }
+   .cos{
+    text-align: center;}
 }
